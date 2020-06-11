@@ -8,7 +8,7 @@ namespace Abstraction.Interface
 {
     public interface InterfaceBangunDatar
     {
-        void luas();
-        void keliling();
+        void Luas();
+        void Keliling();
     }
 }
