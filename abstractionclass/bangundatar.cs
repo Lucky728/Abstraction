@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abstraction.AbstractionClass
 {
-    public abstraction class BangunDatar
+    public Abstraction class BangunDatar
     {
         public abstract void Luas();
         public abstract void Keliling();
