@@ -17,7 +17,7 @@ namespace Abstraction.Interface
             Console.WriteLine("luas persegi           = " + (x * x));
         }
 
-        public void keliling()
+        public void Keliling()
         {
             Console.WriteLine("keliling persegi       = " + (4 * x));
         }
