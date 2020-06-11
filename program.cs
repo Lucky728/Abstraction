@@ -20,13 +20,13 @@ namespace Abstraction
             interfaceBangunDatar bangundatar;   //Digunakan apabila menggunakan interface
 
             Console.WriteLine("1. persegi");
-            bangundatar = new Persegi();
+            bangundatar = new persegi();
             bangundatar.Luas();
             bangundatar.Keliling();
 
             Console.WriteLine();
             Console.WriteLine("2. persegi Panjang");
-            bangundatar = new PersegiPanjang();
+            bangundatar = new persegipanjang();
             bangundatar.Luas();
             bangundatar.Keliling();
 
