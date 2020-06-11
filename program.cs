@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 //using Abstraction.AbstractionClass;      //Digunakan apabila menggunakan Abstraction Class
-using Abstraction.Interface;            //Digunakan apabila menggunakan interface
+using Abstraction.Interface;            //Digunakan apabila menggunakan Interface
 
 namespace Abstraction
 {
@@ -17,7 +17,7 @@ namespace Abstraction
             Console.WriteLine();
 
             //BangunDatar bangundatar;  //Digunakan apabila menggunakan Abstraction Class
-            interfaceBangunDatar bangundatar;   //Digunakan apabila menggunakan interface
+            interfaceBangunDatar bangundatar;   //Digunakan apabila menggunakan Interface
 
             Console.WriteLine("1. persegi");
             bangundatar = new persegi();
