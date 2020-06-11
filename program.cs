@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//using Abstraction.AbstractClass;      //Digunakan apabila menggunakan Abstract Class
+//using Abstraction.AbstractionClass;      //Digunakan apabila menggunakan Abstract Class
 using Abstraction.Interface;            //Digunakan apabila menggunakan Interface
 
 namespace Abstraction
@@ -19,20 +19,20 @@ namespace Abstraction
             //BangunDatar bangundatar;  //Digunakan apabila menggunakan Abstract Class
             IBangunDatar bangundatar;   //Digunakan apabila menggunakan Interface
 
-            Console.WriteLine("1. Persegi");
+            Console.WriteLine("1. persegi");
             bangundatar = new Persegi();
             bangundatar.Luas();
             bangundatar.Keliling();
 
             Console.WriteLine();
-            Console.WriteLine("2. Persegi Panjang");
+            Console.WriteLine("2. persegi Panjang");
             bangundatar = new PersegiPanjang();
             bangundatar.Luas();
             bangundatar.Keliling();
 
             Console.WriteLine();
-            Console.WriteLine("3. Segitiga");
-            bangundatar = new Segitiga();
+            Console.WriteLine("3. segitiga");
+            bangundatar = new segitiga();
             bangundatar.Luas();
             bangundatar.Keliling();
 
