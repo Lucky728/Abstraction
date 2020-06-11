@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abstraction.AbstractionClass
+namespace abstraction.AbstractionClass
 {
     public Abstraction class BangunDatar
     {
