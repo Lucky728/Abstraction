@@ -17,7 +17,7 @@ namespace Abstraction
             Console.WriteLine();
 
             //BangunDatar bangundatar;  //Digunakan apabila menggunakan Abstraction Class
-            InterfaceBangunDatar bangundatar;   //Digunakan apabila menggunakan Interface
+            InterfaceBangunDatar bangundatar;   //Digunakan apabila menggunakan interface
 
             Console.WriteLine("1. persegi");
             bangundatar = new persegi();
