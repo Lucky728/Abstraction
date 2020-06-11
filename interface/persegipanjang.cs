@@ -10,7 +10,7 @@ namespace Abstraction.Interface
     {
         public int p,l;
 
-        public void luas()
+        public void Luas()
         {
             Console.Write("Masuk kan Nilai Panjang    = ");
             p = Convert.ToInt32(Console.ReadLine());
