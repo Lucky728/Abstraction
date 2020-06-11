@@ -11,7 +11,7 @@ namespace Abstraction.Interface
         public int s = 0;
         public float a, t;
 
-        public void luas()
+        public void Luas()
         {
             Console.Write("Masuk kan Nilai Alas      = ");
             a = Convert.ToInt32(Console.ReadLine());
@@ -22,7 +22,7 @@ namespace Abstraction.Interface
             Console.WriteLine("luas segitiga            = " + ((a * t) / 2));
         }
 
-        public void keliling()
+        public void Keliling()
         {
             Console.WriteLine("keliling segitiga      = " + (s + s + s));
         }
