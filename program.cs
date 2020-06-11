@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//using Abstraction.AbstractionClass;      //Digunakan apabila menggunakan Abstract Class
+//using Abstraction.AbstractionClass;      //Digunakan apabila menggunakan Abstraction Class
 using Abstraction.Interface;            //Digunakan apabila menggunakan Interface
 
 namespace Abstraction
